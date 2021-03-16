@@ -7,7 +7,7 @@ def calcular(cantidad):
       
       x = input("Ingresa el primer valor: ")
       x = float(x)
-      operacion =input("Ingresa la operacion a realizar 1.+, 2.-, 3.*, 4./ : ")
+      operacion =input("Ingresa el numero de la operacion a realizar 1. +, 2. -, 3. *, 4. / : ")
       
       if operacion == 1:
         operacion = "+"
@@ -42,12 +42,30 @@ def calcular(cantidad):
       x = input("Ingresa el primer valor: ")
       x = float(x)
 
-      op1 = input("Ingresa la primera operacion a realizar (+, -, *, /)")
+      op1 =input("Ingresa el numero de la operacion a realizar 1. +, 2. -, 3. *, 4. / : ")
+
+      if op1 == 1:
+         op1 = "+"
+      elif op1 == 2:
+         op1 = "-"
+      elif op1 == 3:
+         op1 = "*"
+      elif op1 == 4:
+         op1 ="/"
 
       y = input("Ingresa el segundo valor: ")
       y = float(y)
 
-      op2 = input("Ingresa la segunda operacion a realizar (+, -, *, /)")
+      op2 =input("Ingresa el numero de la operacion a realizar 1. +, 2. -, 3. *, 4. / : ")
+
+      if op2 == 1:
+         op2 = "+"
+      elif op2 == 2:
+        op2 = "-"
+      elif op2 == 3:
+        op2 = "*"
+      elif op2 == 4:
+        op2 ="/"
 
       z = input("Ingresa el tercer valor: ")
       z = float(z)
@@ -104,7 +122,7 @@ if __name__ == "__main__":
 
  print("Esta calculadora realiza las operaciones una a una. Si deseas calcular aoperaciones aritmeticas con tres numeros se dara prioridad a la operacion entre los dos primeros numeros elegidos y la primera operacion")
  print("A ese resultado se le sumara, restara, multiplicara o dividira, segun sea el caso, el tercer numero ingresado")
- print("Por ejemplo: Primer valor: 4  + Primera operacion  : *  Segundo valor: 2  Seunda operacion  : + Tercer valor: 3 Resultado: (4 * 2) + 3 = 11 ")
+ print("Por ejemplo: Primer valor: 4  Primera operacion  : *  Segundo valor: 2  Seunda operacion  : + Tercer valor: 3 Resultado: (4 * 2) + 3 = 11 ")
 
  print("Cuantos valores desea incluir en el calculo 2 o 3")
  cant = str(input())
