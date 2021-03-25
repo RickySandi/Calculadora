@@ -128,8 +128,8 @@ if __name__ == "__main__":
  cant = str(input())
  cantidad = int(cant)
 
- result = calcular(cantidad)
+ resultado = calcular(cantidad)
 
 
- print("Resultado: ", result)
+ print("Resultado: ", resultado)
     
