@@ -23,3 +23,6 @@
 <br>Tipo de problema</br>
 <br>Como se refactorizo</br>
 <br>Linea de refactorizado</br>
+fasdf
+
+fasdaf
