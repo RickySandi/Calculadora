@@ -48,28 +48,28 @@ def operaciones_3_numeros(_1er_operador_2do_operador):
  
 print("\nEsta calculadora realiza las operaciones una a una. Si deseas calcular aoperaciones aritmeticas con tres numeros se dara prioridad a la operacion entre los dos valor_1s numeros elegidos y la primera operacion")
 print("A ese resultado se le sumara, restara, multiplicara o dividira, segun sea el caso, el tercer numero ingresado")
-print("Por ejemplo: Primer valor: 4  Primera operacion  : *  valor_2 valor: 2  Segunda operacion  : + Tercer valor: 3 \nResultado: (4 * 2) + 3 = 11 ")
-numero_de_valores=int(input("Cuantos valores desea incluir en el calculo 2 o 3 "))
+print("Por ejemplo: Primer valor: 4  Primera operacion  : *  segundo valor: 2  Segunda operacion  : + Tercer valor: 3 \nResultado: (4 * 2) + 3 = 11 ")
+numero_de_valores=int(input("Cuantos valores desea incluir en el calculo 2 o 3: "))
 
 if numero_de_valores==2:
-  valor_1=int(input("Inserta 1er Numero: "))
+  valor_1=float(input("Inserta 1er Numero: "))
 
-  print("Operaciones a realizar\n1 - Sumar\n2 - Restar\n3 - Nultiplicar\n4 - Dividir\n")
+  print("Operaciones a realizar\n+ - Sumar\n- - Restar\n* - Multiplicar\n/ - Dividir\n")
   
-  _1er_operador=input("Seleccione operacion: ")
+  _1er_operador=input("Seleccione operador: ")
   
-  valor_2=int(input("Inserta 2do Numero: "))
+  valor_2=float(input("Inserta 2do Numero: "))
   calculadora=Calculadora(valor_1,valor_2)
   
   resultado_2_numeros=operaciones_2_numeros(_1er_operador)
 else:
-  valor_1=int(input("Inserta 1er Numero: "))
+  valor_1=float(input("Inserta 1er Numero: "))
   
-  print("Operaciones a realizar\n1 - Sumar\n2 - Restar\n3 - Nultiplicar\n4 - Dividir\n")
+  print("Operaciones a realizar\n+ - Sumar\n- - Restar\n* - Multiplicar\n/ - Dividir\n")
   
-  _1er_operador=input("Seleccione operacion: ")
+  _1er_operador=input("Seleccione operador: ")
   
-  valor_2=int(input("Inserta 2do Numero: "))
+  valor_2=float(input("Inserta 2do Numero: "))
   
   calculadora=Calculadora(valor_1,valor_2)
   
@@ -79,7 +79,7 @@ else:
   
   _2do_operador=input("Seleccione la segunda peracion: ")
   
-  valor_3=int(input("Inserta 3er Numero: "))
+  valor_3=float(input("Inserta 3er Numero: "))
   
   calculadora2=Calculadora(resultado_2_numeros,valor_3)
   resultado_3_numeros=operaciones_3_numeros(_2do_operador)

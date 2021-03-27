@@ -39,11 +39,11 @@
 
 >**Code smell5**
 
->linea  codigos sucios
+>23-27
 
->Tipo de problema
+>Codigo inecesario
 
->Como se refactorizo
+>Eleminandolo
 
->Linea de refactorizado
+>Se elimino
 
